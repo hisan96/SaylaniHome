@@ -1,0 +1,151 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navbar-custom{
+    background-color: #316DC3 !important;
+}
+
+li{
+    display: inline;
+    text-decoration: none;
+}
+
+li a {
+    margin-left: 15px;
+}
+
+li a :hover{
+    background-color: #316DD9;
+}
+
+li p {
+    display: inline;
+    margin-left: 150px;
+    color: white;
+}
+
+li button{
+    margin-left: 20px;
+}
+
+.mainmenu{
+    background-color: #f1f1f1;
+}
+.toggle{
+    display: none;
+}
+
+.homebtn{
+    color: white !important;
+    background-color:#316DC3;
+    border-radius: 20px;
+}
+
+.slideable-text{
+    background-color:#316DC3;
+    color: white;
+    height: 30px;
+    margin: 10px 13% 10px 13% ;
+}
+
+.introbox{
+    background-color: #F7F8FA;
+    margin: auto;
+}
+
+.introimg{
+    margin: 10px auto 10px auto;
+    /* text-align: center; */
+
+    /* margin-top: 80px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; */
+    width: 20%;
+}
+
+.introtext{
+    margin-left: 13%;
+    margin-right: 13%;
+    text-align: justify;
+}
+.counter{
+    background-color: #2655E8;
+    height: 300px;
+    display:flex;
+    justify-content:space-between;
+}
+
+.box{
+    padding: 40px;
+   display: block;
+   float: left;
+   width: 25%;
+   background: #316dc3;
+   color: #efefef;
+   font-family: 'Inconsolata', monospace;
+   font-family: 'Titillium Web', sans-serif;
+   font-size: bold;
+   font-weight: bold;
+}
+
+.online{
+    width: 355px;
+    height: 190px;
+    border: 2px solid #eee;
+    box-shadow: 6px 6px 12px 6px rgba(219, 216, 216, 0.664);
+    display: inline-flex;
+    text-align: center;
+    margin: 12px;
+    background-color: #fff;
+    color: #316DC3;
+}
+
+.what-we-are-doing{
+    background-color:#f7f8fa !important;
+    height: 660px;
+    
+}
+
+.logo-what-we-are-doing{
+    margin-left: 615px;
+    height: 400px;
+    margin-top: -15px;
+}
+
+.images{
+    display: flex;
+    margin-top: 30px;
+}
+
+.card2
+{
+	border: 1px solid #F2F2F2;
+	margin: 5% 0%;
+	background-color: #F2F2F2;
+	color: #316DC3;
+	border-radius: 4px;
+	box-shadow: 0px 1.5px 3px 1.5px #D7DBDD;
+}
+
+.cn5
+{
+	font-family: "Times New Roman", Times, serif;
+	padding: 5% 5%;
+	background-color: #ffffff;	
+}
+
+.line-bottom {
+    position: relative;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    color: #316DC3;
+    font-weight: 300;
+    letter-spacing: -1;
+    font-family: 'Times New Roman', Times, serif;
+  }
